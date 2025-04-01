@@ -3,6 +3,8 @@ import { getAuth } from "firebase-admin/auth";
 import { getFirestore } from "firebase-admin/firestore"; // ✅ Correct import
 // import {getFirestore} from "@firebase/firestore"
 
+
+// Initialize Firebase Admin SDK
 const initFirebaseAdmin = () => {
     const apps = getApps();
 
